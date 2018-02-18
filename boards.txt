@@ -1,10 +1,16 @@
 ##############################################################
+menu.cpu=Processor
+##############################################################
 
 consumer.name=TCH Technology Consumer
-consumer.upload.protocol=stk500
-consumer.upload.maximum_size=126976
+consumer.upload.protocol=arduino
 consumer.upload.speed=57600
 consumer.upload.tool=avrdude
+
+consumer.menu.cpu.at90can128=AT90CAN128
+consumer.menu.cpu.at90can128.upload.maximum_size=126976
+consumer.menu.cpu.at90can65=AT90CAN64
+consumer.menu.cpu.at90can128.upload.maximum_size=61440
 
 consumer.bootloader.low_fuses=0xFF
 consumer.bootloader.high_fuses=0x58
@@ -20,14 +26,17 @@ consumer.build.core=arduino:arduino
 consumer.build.variant=consumer
 consumer.build.board=AVR_TCH_CONSUMER
 
-
 ##############################################################
 
 producer.name=TCH Technology Producer
-producer.upload.protocol=stk500
-producer.upload.maximum_size=126976
+producer.upload.protocol=arduino
 producer.upload.speed=57600
 producer.upload.tool=avrdude
+
+producer.menu.cpu.at90can128=AT90CAN128
+producer.menu.cpu.at90can128.upload.maximum_size=126976
+producer.menu.cpu.at90can65=AT90CAN64
+producer.menu.cpu.at90can128.upload.maximum_size=61440
 
 producer.bootloader.low_fuses=0xFF
 producer.bootloader.high_fuses=0x58
@@ -46,10 +55,14 @@ producer.build.board=AVR_TCH_PRODUCER
 ##############################################################
 
 producer_consumer.name=TCH Technology Producer_Consumer
-producer_consumer.upload.protocol=stk500
-producer_consumer.upload.maximum_size=126976
+producer_consumer.upload.protocol=arduino
 producer_consumer.upload.speed=57600
 producer_consumer.upload.tool=avrdude
+
+producer_consumer.menu.cpu.at90can128=AT90CAN128
+producer_consumer.menu.cpu.at90can128.upload.maximum_size=126976
+producer_consumer.menu.cpu.at90can65=AT90CAN64
+producer_consumer.menu.cpu.at90can128.upload.maximum_size=61440
 
 producer_consumer.bootloader.low_fuses=0xFF
 producer_consumer.bootloader.high_fuses=0x58
@@ -68,10 +81,14 @@ producer_consumer.build.board=AVR_TCH_PRODUCER_CONSUMER
 ##############################################################
 
 ver_1.name=TCH Technology Version .1 boards
-ver_1.upload.protocol=stk500
-ver_1.upload.maximum_size=126976
+ver_1.upload.protocol=arduino
 ver_1.upload.speed=57600
 ver_1.upload.tool=avrdude
+
+ver_1.menu.cpu.at90can128=AT90CAN128
+ver_1.menu.cpu.at90can128.upload.maximum_size=126976
+ver_1.menu.cpu.at90can65=AT90CAN64
+ver_1.menu.cpu.at90can128.upload.maximum_size=61440
 
 ver_1.bootloader.low_fuses=0xFF
 ver_1.bootloader.high_fuses=0x58
