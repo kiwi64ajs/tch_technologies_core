@@ -60,8 +60,8 @@ const static uint8_t GOLD = 42;
 
 const static uint8_t A0 = 40;
 const static uint8_t A1 = 41;
-//const static uint8_t A2 = 42;
-//const static uint8_t A3 = 43;
+const static uint8_t A2 = 42;
+const static uint8_t A3 = 43;
 const static uint8_t A4 = 44;
 const static uint8_t A5 = 45;
 const static uint8_t A6 = 46;
